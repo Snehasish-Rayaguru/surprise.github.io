@@ -6,7 +6,7 @@ body, html {
 
 body {
   margin: 0;
-  background-color: mistyrose;
+  background-color: rgb(0, 234, 255);
   position: relative;
   perspective: 800px;
   overflow: hidden;
@@ -32,7 +32,7 @@ body {
   position: absolute;
   width: 100%;
   height: 100%;
-  background-color: #FFF;
+  background-color: #ff00a6;
   border-radius: 5px;
   box-shadow: 0 0 30px -5px rgba(251, 192, 185, 0.9215686275);
 }
@@ -84,7 +84,7 @@ body {
   font-size: 30px;
   line-height: 20px;
   letter-spacing: 2px;
-  color: #ff969f;
+  color: #3f2325;
 }
 
 .envelope .front .mail p:first-child {
@@ -123,8 +123,8 @@ body {
 .envelope .back .flip:before {
   content: "";
   position: absolute;
-  background-color: #FFF;
-  box-shadow: 0px 0px 100px rgba(245, 193, 188, 0.3215686275);
+  background-color: #f472e3;
+  box-shadow: 0px 0px 100px rgba(230, 50, 224, 0.322);
 }
 
 .envelope .back .top-flip:before, .envelope .back .bottom-flip:before {
@@ -214,7 +214,7 @@ body {
   opacity: 0;
   top: -15px;
   transition: all 0.1s linear;
-  color: #ADADAD;
+  color: #fa0000;
 }
 
 .envelope .back .letter label.show {
@@ -240,7 +240,7 @@ body {
   width: 100%;
   padding: 5px;
   margin: 0;
-  background-color: #F6F6DF;
+  background-color: #f5ccee;
 }
 
 .envelope .back .letter input:focus, .envelope .back .letter textarea:focus {
@@ -434,7 +434,7 @@ body {
 }
 
 .candle {
-  background: #ffffff;
+  background: #ea8eef;
   border-top-left-radius: 40%;
   border-top-right-radius: 40%;
   position: absolute;
@@ -446,7 +446,7 @@ body {
   height: 50px;
 }
 .candle:after, .candle:before {
-  background: rgba(255, 0, 0, 0.4);
+  background: rgba(255, 123, 0, 0.896);
   content: "";
   position: absolute;
   width: 100%;
